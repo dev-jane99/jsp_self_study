@@ -21,6 +21,8 @@ public class MyServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=utf-8");
+	}
+}
 		
 //		1번 실습
 //		PrintWriter out = response.getWriter();
@@ -45,28 +47,28 @@ public class MyServlet extends HttpServlet {
 		
 		
 //		3번 실습
-		boolean checkFootball = false;
-		boolean checkBasketball = false;
-		boolean checkBaseball = false;
-		String result = "";
-		 
-		PrintWriter out = response.getWriter();
-		checkFootball = Boolean.parseBoolean(request.getParameter("football"));
-		checkBasketball = Boolean.parseBoolean(request.getParameter("basketball"));
-		checkBaseball = Boolean.parseBoolean(request.getParameter("baseball"));
-
-		
-		
-		out.print("<h3>your hobby is : </h3>" + result);
-		out.close(); 
-	}
-
-	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
-	}
-
-}
+//		boolean checkFootball = false;
+//		boolean checkBasketball = false;
+//		boolean checkBaseball = false;
+//		String result = "";
+//		 
+//		PrintWriter out = response.getWriter();
+//		checkFootball = Boolean.parseBoolean(request.getParameter("football"));
+//		checkBasketball = Boolean.parseBoolean(request.getParameter("basketball"));
+//		checkBaseball = Boolean.parseBoolean(request.getParameter("baseball"));
+//
+//		
+//		
+//		out.print("<h3>your hobby is : </h3>" + result);
+//		out.close(); 
+//	}
+//
+//	
+//	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//		doGet(request, response);
+//	}
+//
+//}
 
 //선생님 답
 //---------------

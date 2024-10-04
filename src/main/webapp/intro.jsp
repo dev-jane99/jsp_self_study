@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%-- 	
+	
 <%
 		for(int i = 0; i < 10; i++){
 	%>
@@ -15,7 +15,7 @@
 	<%
 		}
 	%> 
---%>
+
 
 <!-- 1. 이름과 나이를 입력받아서 
 	나이와 만나이를 서블릿에서 계산후 화면에 응답해주는 페이지 제작 -->
@@ -79,7 +79,7 @@
 			result.innerText = "확인 되었습니다";
 			result.style.color = "blue";
 			form.submit();
-		}) --%> 
+		}) 
 		
 		
 		/* 2번 문제 다 풀린거 아님. 버튼이 안눌림*/
@@ -129,7 +129,10 @@
 		      p.style.color = "blue";
 		      form.submit();
 		   }) */
-		button.addEventListener("click", () => {
+		   
+		   
+		 /*  3번문제 */
+	/* 	button.addEventListener("click", () => {
 		      if(!(football.value || basketball.value ||  baseball.value)){
 		         p.innerText = "please check at least one box!";
 		         p.style.color = "red";
@@ -152,16 +155,16 @@
 			      return;
 		      }
 		     
-		   })
+		   }) */
 		   
 		   
 	</script>
 </html>
 
-
+ --%>
 
 <!-- 선생님 답 -->
-<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -271,7 +274,7 @@
    
 </script>
 </html>
- --%>
+
 
 
 
